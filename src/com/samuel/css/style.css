@@ -213,6 +213,7 @@
     color: #ffffff;
     color: rgba(0, 0, 0, 0.4);
 }
+
 .h4, h4 {
     font-size: 18px;
     color: aliceblue !important;
@@ -246,9 +247,10 @@
     margin-bottom: 0%;
 }
 
-.navbar-inverse{
+.navbar-inverse {
     background-color: #3c3c3c;
 }
+
 footer {
     background-color: #3c3c3c;
     /*border-top: solid #0f0f0f;*/
@@ -256,4 +258,20 @@ footer {
     width: 100%;
     font-family: 'Lato', sans-serif;
     margin-top: 2%;
+}
+
+.navbar-brand {
+    display: block;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    #subMenu {
+        float: inherit;
+        text-align: center;
+        font-size: large;
+    }
 }

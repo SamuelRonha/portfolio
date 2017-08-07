@@ -1,0 +1,259 @@
+.navbar-brand {
+    color: white !important;
+    font-family: "Adobe Myungjo Std M";
+    font-size: large;
+    transition-duration: 2s;
+
+}
+
+.navbar-brand:hover {
+    filter: blur(2px);
+    transition-duration: 2s;
+    color: #8c8c8c;
+    text-decoration: line-through;
+    font-size: 150%;
+}
+
+.middle {
+    background: #9C9D9B url(http://templatemints.com/rttheme13/images/background_images/abstract_background7.jpg) top center no-repeat !important;
+    padding-bottom: 30px;
+}
+
+#name {
+    /*text-align: center;*/
+    text-decoration: none;
+    padding-bottom: 5%;
+    color: antiquewhite;
+    word-break: break-all;
+}
+
+#name h3 {
+    font-size: 2.7vw;
+    font-family: "Sitka Display";
+    color: #3c3c3c;
+}
+
+#name p {
+    padding-bottom: 1%;
+    color: #0f0f0f;
+    font-family: "Adobe Fan Heiti Std B";
+}
+
+#name a {
+    margin-left: 1%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.8vw;
+    /*background-size: 110%;*/
+
+}
+
+#name .fa {
+    transition-duration: 1s;
+}
+
+.fa-facebook {
+    padding: 1.2% 1.4% 1.2% 1.4%;
+    background-color: #3B5998;
+}
+
+.fa-linkedin {
+    padding: 1.2%;
+    background-color: #007BB6;
+}
+
+.fa-github {
+    padding: 1.2%;
+    background-color: #333;
+}
+
+#name .fa:hover {
+    background-color: antiquewhite;
+    color: #0f0f0f;
+    filter: blur(1px);
+    /*transform: rotateY( -360deg );*/
+    transition-duration: 1.3s;
+    /*font-size: 2.0vw;*/
+}
+
+.circle {
+    margin-top: 2%;
+    padding: 10% 10% 10% 10%;
+    margin-left: 39%;
+    /*display: inherit;*/
+    background-image: url("../img/eu.jpg");
+    filter: blur(0.2px);
+    filter: grayscale(20%);
+    background-size: 100%;
+    width: 20%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px solid #3c3c3c;
+    border-radius: 50%;
+}
+
+#myBtn {
+    float: right;
+    margin-right: 1%;
+    outline: none;
+    border: none;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    /*outline: none; !* Remove outline *!*/
+    color: #0f0f0f; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 300%;
+    background-color: transparent;
+
+}
+
+/**/
+
+#myBtn:hover {
+    background-color: transparent; /* Add a dark-grey background on hover */
+}
+
+.section-title {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.divider {
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.divider:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f0f0f0;
+    left: 50%;
+    margin-left: -15px;
+    top: 50%;
+    background: #fff;
+    margin-top: -15px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.divider:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2ca5b9;
+    left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    background: #2ca5b9;
+    margin-top: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+.h4, h4 {
+    font-size: 18px;
+    color: aliceblue !important;
+}
+
+#subMenu {
+    float: right;
+    /*padding-bottom: 1%;*/
+    font-size: large;
+}
+
+#subMenu ul li a {
+    border-bottom: 2px solid #333;
+    color: #fff;
+}
+
+#subMenu ul li a:hover {
+    transition-duration: 1s;
+    filter: blur(1px);
+    border-color: antiquewhite;
+    color: white;
+}
+
+#menu {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar-default {
+    background-color: #333;
+    margin-bottom: 0%;
+}
+
+.navbar-inverse{
+    background-color: #3c3c3c;
+}
+footer {
+    background-color: #3c3c3c;
+    /*border-top: solid #0f0f0f;*/
+    color: white;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin-top: 2%;
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Samuel Ronha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="Portifólio de Samuel Ronha"/>
+    <meta name="keywords" content="portifólio, samuel ronha, desenvolvedor"/>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/snap.svg-min.js"></script>
+    <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid container">
+        <div class="navbar-header">
+            <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#menu">
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+                <i class="icon-bar"></i>
+            </button>
+        </div>
+
+
+        <div id="menu" class="collapse navbar-collapse">
+            <a class="navbar-brand col-md-1 col-sm-1" href="index.html">
+                Portifólio
+            </a>
+            <div id="subMenu">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="scrollAbout()">
+                            Sobre
+                        </a>
+                    </li>
+
+                    <li><a href="#" onclick="scrollContact()">
+                        Contato
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="middle col-lg-12">
+    <div>
+        <div>
+            <div class="circle">
+            </div>
+            <div id="name">
+                <div class="text-center">
+                    <h3>SAMUEL RONHA</h3>
+                    <span><p>Estudante e Desenvolvedor/Java Web</p></span>
+                </div>
+
+                <div class="text-center" style="margin-right: 1%">
+                    <a href="https://github.com/SamuelRonha" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/SamuelRonha" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/samuel-ronha-878480115/" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="divider"></div>
+        </div>
+    </div>
+
+    <div class="about col-lg-12">
+        <p style="font-family: 'Adobe Garamond Pro Bold'"><b>Samuel Ronha</b></p>
+        <p style="font-family: 'Adobe Garamond Pro'; font-size: initial; float: left; padding-bottom: 0px">
+
+            Atualmente realizando pós graduação na área de desenvolvimento Web e aplicações móveis,
+            Trabalhando com desenvolvimento Java/Web em utilização dos Frameworks
+            Spring boot, Spring Security, Hibernate, JPA, QueryDSL e JavaFx(Front-end Desktop).
+            formado em Sistemas de Informação(2013-2016), possuindo conhecimentos em desenvolvimento
+            back end: Java com auxilio de Spring Framework e AngularJs,
+            front end: HTML5, CSS, Javascript e JavaFx(Desktop), com a utilização dos Bancos
+            Mysql, PostgreSQL e OracleDB, com a utilização de IDE's de desenvolvimento Intellij, NetBeans e/ou
+            Spring tool suite, com conhecimentos básicos em desenvolvimento PHP, NodeJs e C#.
+
+
+        </p>
+
+
+    </div>
+</div>
+<!--<h3>Grafico de Conhecimentos:</h3>-->
+
+
+<!--HTML-->
+<div class="container alert-info" style="margin-top: 10%">
+    <div class="skillbar" data-percent="70">
+        <span class="skillbar-title" style="background: #EA2D2F;">Java</span>
+        <p class="skillbar-bar" style="background: #ff5c33;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+
+    <div class="skillbar" data-percent="25">
+        <span class="skillbar-title" style="background: #F7DF1E;">JavaScript</span>
+        <p class="skillbar-bar" style="background: #ffff99;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+
+
+    <div class="skillbar" data-percent="10">
+        <span class="skillbar-title" style="background: #777BB3;">PHP</span>
+        <p class="skillbar-bar" style="background: #ccb3ff;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+
+    <div class="skillbar" data-percent="15">
+        <span class="skillbar-title" style="background: #944DDB;">C#</span>
+        <p class="skillbar-bar" style="background: #bf80ff;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+
+    <div class="skillbar" data-percent="8">
+        <span class="skillbar-title" style="background: #7FBD42;">NodeJS</span>
+        <p class="skillbar-bar" style="background: #bbff99;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+
+    <div class="skillbar" data-percent="30">
+        <span class="skillbar-title" style="background: #d35400;">HTML5</span>
+        <p class="skillbar-bar" style="background: #e67e22;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+
+    <!--<div class="skillbar" data-percent="30">-->
+    <!--<span class="skillbar-title" style="background: #d35400;">HTML5</span>-->
+    <!--<p class="skillbar-bar" style="background: #e67e22;"></p>-->
+    <!--<span class="skill-bar-percent"></span>-->
+    <!--</div>-->
+
+
+    <div class="skillbar" data-percent="20">
+        <span class="skillbar-title" style="background: #2980b9;">CSS3</span>
+        <p class="skillbar-bar" style="background: #34AADC;"></p>
+        <span class="skill-bar-percent"></span>
+    </div>
+</div>
+
+
+<div id="contact" class="container navbar-inverse" style="margin-top: 1%; padding-bottom: 1%">
+    <h3 style="color: whitesmoke">Contato</h3>
+    <div class="row">
+        <div class="form-group col-sm-6">
+            <label for="nome" class="h4" style="color: whitesmoke">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu Nome" required>
+        </div>
+        <div class="form-group col-sm-6">
+            <label for="email" class="h4" style="color: whitesmoke">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu Email" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="mensagem" class="h4 " style="color: whitesmoke">Mensagem</label>
+        <textarea id="mensagem" class="form-control" rows="5" placeholder="Escreva sua Mensagem" required></textarea>
+    </div>
+    <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Enviar</button>
+    <div id="msgSubmit" class="h3 text-center hidden">Mensagem Enviada!</div>
+</div>
+<footer>
+
+</footer>
+
+<button onclick="topFunction()" id="myBtn"><i class="fa fa-arrow-circle-o-up"></i></button>
+
+<!-- Foooter-->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Contact us form -->
+            <div class="col-md-4">
+                <div class="headline">
+                    <h3>Contato</h3>
+                </div>
+                <hr/>
+                <div class="content">
+                    <p>
+                        Mariluz, PR 87470-000<br/>
+                        Fone: +55 (44)99825-3106<br/>
+                        Email: samuelronha@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="headline">
+                    <h3>Bootstrap</h3>
+                </div>
+                <hr/>
+                <div class="content">
+                    <p>
+                        <a href="http://getbootstrap.com" target="_blank"> Bootstrap</a>
+                        <br>
+                        <a href="https://jquery.com/" target="_blank"> JQuery</a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="headline">
+                    <h3>Portifólio Básico.</h3>
+                </div>
+                <hr/>
+                <div class="content">
+                    <p>
+                        Aula Pós Desenvolvimento Web<br>
+                        <a href="http://www.professorburnes.com.br/">Prof. Burnes</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

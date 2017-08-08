@@ -264,7 +264,7 @@ footer {
     display: block;
 }
 
-@media screen and (max-width: 699px) and (min-width: 520px) {
+@media screen and (max-width: 699px) and (min-width: 100px) {
     .navbar-brand {
         display: none;
     }
